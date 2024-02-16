@@ -21,22 +21,6 @@ interface Instances {
 
 let instances: Instances = {};
 
-function findKey(object: { [key: string]: any }, key: string): any | null {
-    for (const prop in object) {
-        if (prop === key) {
-            return object[prop];
-        } else if (typeof object[prop] === "object") {
-            const result = findKey(object[prop], key);
-
-            if (result) {
-                return result;
-            }
-        }
-    }
-
-    return null;
-}
-
 class TreeItem extends vscode.TreeItem {
     children: TreeItem[] = [];
 
