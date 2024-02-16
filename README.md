@@ -39,50 +39,50 @@ Navigate to https://create.roblox.com/dashboard/credentials?activeTab=ApiKeysTab
 
 Click **Create API key**
 
-![Click Create API key](./images/APIKEY/1.png)
+![Click Create API key](https://raw.githubusercontent.com/afoster549/roblox-editor/main/images/APIKEY/1.png)
 
 Give it a Name
 
-![Click Create API key](./images/APIKEY/2.png)
+![Click Create API key](https://raw.githubusercontent.com/afoster549/roblox-editor/main/images/APIKEY/2.png)
 
 Click **Select API System** and select **Engine (Beta)**
 
-![Click Create API key](./images/APIKEY/3.png)
+![Click Create API key](https://raw.githubusercontent.com/afoster549/roblox-editor/main/images/APIKEY/3.png)
 
 Click **ADD API SYSTEM**
 
-![Click Create API key](./images/APIKEY/4.png)
+![Click Create API key](https://raw.githubusercontent.com/afoster549/roblox-editor/main/images/APIKEY/4.png)
 
 Click **Select an Experience** and select the game you wan't to add
 
-![Click Create API key](./images/APIKEY/5.png)
+![Click Create API key](https://raw.githubusercontent.com/afoster549/roblox-editor/main/images/APIKEY/5.png)
 
 Click **ADD EXPERIENCE**
 
-![Click Create API key](./images/APIKEY/6.png)
+![Click Create API key](https://raw.githubusercontent.com/afoster549/roblox-editor/main/images/APIKEY/6.png)
 
 Click **Select Operations to Add**
 
-![Click Create API key](./images/APIKEY/7.png)
+![Click Create API key](https://raw.githubusercontent.com/afoster549/roblox-editor/main/images/APIKEY/7.png)
 
 Select both **Read** and **Write**
 
-![Click Create API key](./images/APIKEY/8.png)
+![Click Create API key](https://raw.githubusercontent.com/afoster549/roblox-editor/main/images/APIKEY/8.png)
 
 Enter and IP address and port you wish to use or use `0.0.0.0/0`
 
-![Click Create API key](./images/APIKEY/9.png)
+![Click Create API key](https://raw.githubusercontent.com/afoster549/roblox-editor/main/images/APIKEY/9.png)
 
 Click **ADD IP ADDRESS**
 
-![Click Create API key](./images/APIKEY/10.png)
+![Click Create API key](https://raw.githubusercontent.com/afoster549/roblox-editor/main/images/APIKEY/10.png)
 
 Select and Expiration time if you wish.
 
-![Click Create API key](./images/APIKEY/11.png)
+![Click Create API key](https://raw.githubusercontent.com/afoster549/roblox-editor/main/images/APIKEY/11.png)
 
 Click **SAVE & GENERATE KEY**
 
-![Click Create API key](./images/APIKEY/12.png)
+![Click Create API key](https://raw.githubusercontent.com/afoster549/roblox-editor/main/images/APIKEY/12.png)
 
 Ensure you clikc **COPY KEY TO CLIPBOARD** and store this somewhere so you don't loose it.
