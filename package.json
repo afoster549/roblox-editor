@@ -2,7 +2,7 @@
   "name": "roblox-editor",
   "displayName": "Roblox Editor",
   "description": "Allows you to edit Roblox scrips outside of Roblox studio.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.86.0"
   },
