@@ -3,6 +3,7 @@
   "displayName": "Roblox Editor",
   "description": "Allows you to edit Roblox scrips outside of Roblox studio.",
   "icon": "icons/icon.png",
+  "publisher": "adamfoster",
   "version": "0.1.0",
   "engines": {
     "vscode": "^1.86.0"
