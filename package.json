@@ -2,6 +2,7 @@
   "name": "roblox-editor",
   "displayName": "Roblox Editor",
   "description": "Allows you to edit Roblox scrips outside of Roblox studio.",
+  "icon": "https://raw.githubusercontent.com/afoster549/roblox-editor/main/images/icons/icon.png",
   "version": "0.1.0",
   "engines": {
     "vscode": "^1.86.0"
