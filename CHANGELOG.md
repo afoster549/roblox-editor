@@ -5,6 +5,9 @@ All notable changes to the "roblox-editor" extension will be documented in this 
 ## Features
 
 * Store game places
+* Edit placeId
+* Edit API key
+* Delete stored places
 
 ## Bug fixes
 
