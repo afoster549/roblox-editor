@@ -17,8 +17,7 @@ const openPlace = async (context: vscode.ExtensionContext) => {
     } else if (selection.label && selection.description) {
         const placeId = selection.description;
         const apiKey = await getAPIkey(context, placeId);
-        const gameInfo = getGameInfo(placeId);
-        
+
         const options: vscode.QuickPickItem[] = [
             {
                 label: "Edit PlaceId"
@@ -42,7 +41,8 @@ const openPlace = async (context: vscode.ExtensionContext) => {
                 return;
             }
 
-            savePlace(context, false, gameInfo, newPlaceId, apiKey);
+            savePlace(context, true, null, placeId);
+            savePlace(context, false, await getGameInfo(newPlaceId), newPlaceId, apiKey);
         } else if (action.label === "Edit API key") {
             const newAPIkey = await vscode.window.showInputBox({ placeHolder: apiKey });
 
@@ -50,9 +50,9 @@ const openPlace = async (context: vscode.ExtensionContext) => {
                 return;
             }
 
-            savePlace(context, false, gameInfo, placeId, newAPIkey);
+            savePlace(context, false, await getGameInfo(placeId), placeId, newAPIkey);
         } else if (action.label === "Delete place") {
-            savePlace(context, true, null, placeId,);
+            savePlace(context, true, null, placeId);
         }
     }
 };
