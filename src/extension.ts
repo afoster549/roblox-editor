@@ -34,6 +34,11 @@ export function activate(context: vscode.ExtensionContext) {
 
 	vscode.commands.registerCommand("roblox-editor.openEditor", async (_, instance, script) => {
 		const response = await openEditor(instance, script, editors);
+
+		if (response === undefined) {
+			return;
+		}
+
 		editors = response.editors;
 
 		context.subscriptions.push(vscode.window.onDidChangeActiveTextEditor(() => {
