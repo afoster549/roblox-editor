@@ -12,6 +12,10 @@ const openPlace = async (context: vscode.ExtensionContext) => {
 	let placeId = "";
 
     const placesArray = await getPlaces(context);
+    placesArray.push({
+        label: "Add place",
+        description: "Add a new place"
+    });
 
     const places: vscode.QuickPickItem[] = placesArray;
 
