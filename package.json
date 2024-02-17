@@ -20,6 +20,10 @@
         "title": "Open Place"
       },
       {
+        "command": "roblox-editor.editPlaces",
+        "title": "Edit Places"
+      },
+      {
         "command": "roblox-editor.loadChildren",
         "title": "Load Children"
       },
