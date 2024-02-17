@@ -10,8 +10,6 @@ const savePlace = (context: vscode.ExtensionContext, remove: boolean, gameInfo?:
         data = JSON.parse(rawData.toString());
 
         if (remove === false && placeId) {
-            console.log("huh");
-
             const placeData = {
                 "name": gameInfo.name,
                 "universeId": String(gameInfo.id),
@@ -21,14 +19,10 @@ const savePlace = (context: vscode.ExtensionContext, remove: boolean, gameInfo?:
 
             data[placeId] = placeData;
         } else if (remove && placeId) {
-            console.log("wat");
-
             delete data[placeId];
         }
 
         vscode.workspace.fs.writeFile(filePath, Buffer.from(JSON.stringify(data))).then(() => {
-            console.log(filePath);
-
             vscode.window.showInformationMessage("Saved place info.");
         });
     });
