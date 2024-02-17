@@ -8,12 +8,7 @@ const getPlaces = (context: vscode.ExtensionContext): any => {
         const data = JSON.parse(rawData.toString());
 		const placesKeys = Object.keys(data);
 
-        let places = [
-            {
-                label: "Add place",
-                description: "Add a new place"
-            }
-        ];
+        let places = [];
 
         for (const key of placesKeys) {
             const place = data[key];
