@@ -13,7 +13,7 @@ const getGameInfo = function(placeId: String): Object {
 			})
 			.catch(() => {
 				vscode.window.showInformationMessage(`Failed to open game ${universeId}`);
-
+				
 				reject({});
 			});
 		})
