@@ -5,6 +5,7 @@ import openPlace from "./commands/openplace";
 import openEditor from "./commands/openeditor";
 import saveFile from "./commands/savefile";
 import saveAllFiles from "./commands/saveallfiles";
+import editPlaces from "./commands/editplaces";
 
 export function activate(context: vscode.ExtensionContext) {
 	let gameInfo: any;
@@ -32,6 +33,10 @@ export function activate(context: vscode.ExtensionContext) {
 		}
 	});
 
+	let editPlaceCmd = vscode.commands.registerCommand("roblox-editor.editPlaces", async () => {
+		await editPlaces(context);
+	});
+
 	vscode.commands.registerCommand("roblox-editor.openEditor", async (_, instance, script) => {
 		const response = await openEditor(instance, script, editors);
 
@@ -57,6 +62,7 @@ export function activate(context: vscode.ExtensionContext) {
     });
 
 	context.subscriptions.push(openPlaceCmd);
+	context.subscriptions.push(editPlaceCmd);
 	context.subscriptions.push(saveFileCmd);
 	context.subscriptions.push(saveAllFilesCmd);
 }
