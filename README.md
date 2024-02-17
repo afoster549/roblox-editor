@@ -1,6 +1,6 @@
 # Roblox Editor
 
-Allows you to edit Roblox scrips outside of Roblox studio.
+Allows you to edit Roblox scripts outside of Roblox studio.
 
 ## Features
 
