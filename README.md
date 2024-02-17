@@ -16,7 +16,8 @@ Allows you to edit Roblox scripts outside of Roblox studio.
 
 ## Planned Features
 
-* Ability to save games and places.
+* Unload game
+* Reload game
 * Icons for instances
 * LUA Language Server (requires plugin)
 * QL Improvements
@@ -40,6 +41,7 @@ Allows you to edit Roblox scripts outside of Roblox studio.
 
 * Clicking a script would keep adding it's text to the current editor.
 * `Save All Files` would overwrite and perviously open scripts with nothing.
+* Removed forgotten console.log()'s
 
 ## How to create an API key
 
