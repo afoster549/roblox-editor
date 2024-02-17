@@ -27,11 +27,19 @@ Allows you to edit Roblox scripts outside of Roblox studio.
 
 ---
 
-## v0.1
+## v0.2
 
-* Beta release
-* Lacks QL features
-* Allows for basic exporer browsing and code editing.
+### Features
+
+* Store game places
+* Edit placeId
+* Edit API key
+* Delete stored places
+
+### Bug fixes
+
+* Clicking a script would keep adding it's text to the current editor.
+* `Save All Files` would overwrite and perviously open scripts with nothing.
 
 ## How to create an API key
 
