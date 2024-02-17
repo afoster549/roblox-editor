@@ -40,8 +40,8 @@ Allows you to edit Roblox scripts outside of Roblox studio.
 ### Bug fixes
 
 * Clicking a script would keep adding it's text to the current editor.
-* `Save All Files` would overwrite and perviously open scripts with nothing.
-* Removed forgotten console.log()'s
+* `Save All Files` would overwrite any perviously open scripts with nothing.
+* Removed forgotten `console.log()`'s
 
 ## How to create an API key
 
@@ -79,7 +79,7 @@ Select both **Read** and **Write**
 
 ![Click Create API key](https://raw.githubusercontent.com/afoster549/roblox-editor/main/images/APIKEY/8.png)
 
-Enter and IP address and port you wish to use or use `0.0.0.0/0`
+Enter an IP address and port you wish to use or `0.0.0.0/0`
 
 ![Click Create API key](https://raw.githubusercontent.com/afoster549/roblox-editor/main/images/APIKEY/9.png)
 
@@ -95,4 +95,4 @@ Click **SAVE & GENERATE KEY**
 
 ![Click Create API key](https://raw.githubusercontent.com/afoster549/roblox-editor/main/images/APIKEY/12.png)
 
-Ensure you clikc **COPY KEY TO CLIPBOARD** and store this somewhere so you don't loose it.
+Ensure you click **COPY KEY TO CLIPBOARD** and store this somewhere so you don't loose it.
