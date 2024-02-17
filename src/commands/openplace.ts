@@ -1,8 +1,8 @@
 import * as vscode from "vscode";
 
-import getGameInfo from "../modules/getgameinfo";
 import createExplorer from "../modules/createexplorer";
 import savePlace from "../modules/saveplace";
+import getGameInfo from "../modules/getgameinfo";
 import getPlaces from "../modules/getplaces";
 import getAPIkey from "../modules/getapikey";
 
@@ -46,7 +46,7 @@ const openPlace = async (context: vscode.ExtensionContext) => {
 
         gameInfo = await getGameInfo(placeId);
 
-        savePlace(context, gameInfo, placeId, apiKey);
+        savePlace(context, false, gameInfo, placeId, apiKey);
     } else if (selection.label && selection.description) {
         placeId = selection.description;
         apiKey = await getAPIkey(context, placeId);
