@@ -13,3 +13,4 @@ All notable changes to the "roblox-editor" extension will be documented in this 
 
 * Clicking a script would keep adding it's text to the current editor.
 * `Save All Files` would overwrite and perviously open scripts with nothing.
+* Removed forgotten console.log()'s
