@@ -57,7 +57,7 @@ Currently you need to re-open the game inorder to view your changes in scripts. 
 
 ---
 
-## v0.2
+## v0.3
 
 ### Features
 
