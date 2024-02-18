@@ -30,14 +30,14 @@ class TreeItem extends vscode.TreeItem {
 
         if (script) {
             this.iconPath = {
-                light: path.join(__dirname, "..", "..", "icons", "instances", script + ".png"),
-                dark: path.join(__dirname, "..", "..", "icons", "instances", script + ".png")
+                light: path.join(__dirname, "..", "..", "..", "icons", "instances", script + ".png"),
+                dark: path.join(__dirname, "..", "..", "..", "icons", "instances", script + ".png")
             };
 
         } else if (icon) {
             this.iconPath = {
-                light: path.join(__dirname, "..", "..", icon),
-                dark: path.join(__dirname, "..", "..", icon)
+                light: path.join(__dirname, "..", "..", "..", icon),
+                dark: path.join(__dirname, "..", "..", "..", icon)
             };
         }
 
