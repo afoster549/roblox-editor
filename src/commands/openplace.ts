@@ -1,6 +1,6 @@
 import * as vscode from "vscode";
 
-import createExplorer from "../modules/createexplorer";
+import createExplorer from "../modules/explorer/createexplorer";
 import savePlace from "../modules/saveplace";
 import getGameInfo from "../modules/getgameinfo";
 import getPlaces from "../modules/getplaces";
