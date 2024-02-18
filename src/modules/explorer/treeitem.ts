@@ -39,8 +39,6 @@ class TreeItem extends vscode.TreeItem {
                 light: path.join(__dirname, "..", "..", icon),
                 dark: path.join(__dirname, "..", "..", icon)
             };
-
-            console.log(this.iconPath);
         }
 
         if (loadBtn && parent) {
