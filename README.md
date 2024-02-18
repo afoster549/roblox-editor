@@ -21,21 +21,21 @@ To open a place run the command `Open Place`
 
 This will bring up a menu where you can select from any of your perviously opened places or add a new place.
 
-![Select place](https://raw.githubusercontent.com/afoster549/roblox-editor/main/images/Screenshots/2.png)
+![Select place](https://raw.githubusercontent.com/afoster549/roblox-editor/main/images/screenshots/2.png)
 
 Adding a new place requires both a placeId and an API key see [here](#how-to-create-an-api-key) on how to create one.
 
 You can then browse through your game in the **Explorer** view.
 
-![Browsing](https://raw.githubusercontent.com/afoster549/roblox-editor/main/images/Screenshots/3.png)
+![Browsing](https://raw.githubusercontent.com/afoster549/roblox-editor/main/images/screenshots/3.png)
 
 To edit a script simply click on it this will open up a new code editor with the script in it.
 
-![Open script](https://raw.githubusercontent.com/afoster549/roblox-editor/main/images/Screenshots/4.png)
+![Open script](https://raw.githubusercontent.com/afoster549/roblox-editor/main/images/screenshots/4.png)
 
 To save your changes use either `alt+d` or `Save File To Roblox` to save the current script alternatively `alt+k d` or `Save all Files To Roblox` to save all open scripts.
 
-![Save script](https://raw.githubusercontent.com/afoster549/roblox-editor/main/images/Screenshots/5.png)
+![Save script](https://raw.githubusercontent.com/afoster549/roblox-editor/main/images/screenshots/5.png)
 
 Currently you need to re-open the game inorder to view your changes in scripts. However this is going to be fixed!
 
