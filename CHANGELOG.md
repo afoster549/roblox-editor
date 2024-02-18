@@ -2,13 +2,11 @@
 
 ## Features
 
-* Store game places
-* Edit placeId
-* Edit API key
-* Delete stored places
+* Instance Icons
+* Code Improvements
+
+> NOTE! It is currently not possible to see exactly what an Instance is other than scripts so Icons are based on the name.
 
 ## Bug fixes
 
-* Clicking a script would keep adding it's text to the current editor.
-* `Save All Files` would overwrite any previously open scripts with nothing.
-* Removed forgotten console.log()'s
+* None

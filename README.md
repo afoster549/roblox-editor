@@ -13,14 +13,33 @@ Allows you to edit Roblox scripts outside of Roblox studio.
 > * You can't update scripts that are part of a package.
 > * You can only use API key authentication. Create an [API key](https://create.roblox.com/docs/en-us/cloud/open-cloud/api-keys) with Engine (Beta) added as an API system.
 
+## Usage
+
+To open a place run the command `Open Place`
+
+This will bring up a menu you can select from any of your perviously opend places or add a new place.
+
+Adding a new place requires both a palceId and an API key see [here](#how-to-create-an-api-key) on how to create one.
+
+You can then browse through your game in the **Explorer** view.
+
+To edit a script simply click on it this will open up a new code editor with the script in it.
+
+To save your changes use either `alt+d` to save the current script or `alt+k d` to save all open scripts.
+
+Currently you need to re-open the game inorder to view your changes in scripts. However this is going to be fixed!
+
+> NOTE! Scripts can only be updated if there is no current live editing session.
 
 ## Planned Features
 
-* Unload game
-* Reload game
-* Icons for instances
-* LUA Language Server (requires plugin)
-* QL Improvements
+- [x] Save palces
+- [x] Edit saved palces
+- [x] Instance icons
+- [ ] Unload game
+- [ ] Reload game
+- [ ] LUA Language Server (requires plugin)
+- [ ] QL Improvements
 
 ## Known Issues
 
@@ -32,18 +51,16 @@ Allows you to edit Roblox scripts outside of Roblox studio.
 
 ### Features
 
-* Store game places
-* Edit placeId
-* Edit API key
-* Delete stored places
+* Instance Icons
+* Code Improvements
+
+> NOTE! It is currently not possible to see exactly what an Instance is other than scripts so Icons are based on the name.
 
 ### Bug fixes
 
-* Clicking a script would keep adding it's text to the current editor.
-* `Save All Files` would overwrite any perviously open scripts with nothing.
-* Removed forgotten `console.log()`'s
+* None
 
-## How to create an API key
+# How to create an API key
 
 Navigate to https://create.roblox.com/dashboard/credentials?activeTab=ApiKeysTab
 
