@@ -4,7 +4,7 @@
   "description": "Allows you to edit Roblox scripts outside of Roblox studio.",
   "icon": "icons/icon.png",
   "publisher": "adamfoster",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "engines": {
     "vscode": "^1.86.0"
   },
